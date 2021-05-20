@@ -1,0 +1,16 @@
+- Importamos os dados da planilha CSV "Video_Games_Sales_as_at_22_Dec_2016" obtida do Kaggle usando transformar dados.
+- Mudamos o ano de string para data e fixamos pra apresentar apenas o ano.
+- Mudamos todas as colunas de número de vendas para tipo decimal usando localidade Inglês (Estados Unidos), pois sem isso o PowerBI não entende o ponto como separador decimal e atrapalha a conversão, dado que no Brasil usamos separador decimal como vírgula.
+- Mudamos notas de crítica para inteiro e nota de usuário para decimal usando localidade Inglês (Estados Unidos).
+- A seguir, empurramos tudo pro PowerBI para começar as análises.
+
+
+Perguntas de curiosidade:
+
+- Qual o jogo mais vendido mundialmente?
+- Qual o jogo mais vendido no Japão?
+- Qual ano as vendas foram maiores mundialmente?
+
+Perguntas de negócio: 
+
+- 
